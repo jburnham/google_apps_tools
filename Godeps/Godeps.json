@@ -1,0 +1,37 @@
+{
+	"ImportPath": "github.com/jburnham/google_apps_tools",
+	"GoVersion": "go1.5.1",
+	"Packages": [
+		"./..."
+	],
+	"Deps": [
+		{
+			"ImportPath": "golang.org/x/net/context",
+			"Rev": "4f2fc6c1e69d41baf187332ee08fbd2b296f21ed"
+		},
+		{
+			"ImportPath": "golang.org/x/oauth2",
+			"Rev": "442624c9ec9243441e83b374a9e22ac549b5c51d"
+		},
+		{
+			"ImportPath": "google.golang.org/api/admin/directory/v1",
+			"Rev": "030d584ade5f79aa2ed0ce067e8f7da50c9a10d5"
+		},
+		{
+			"ImportPath": "google.golang.org/api/gensupport",
+			"Rev": "030d584ade5f79aa2ed0ce067e8f7da50c9a10d5"
+		},
+		{
+			"ImportPath": "google.golang.org/api/googleapi",
+			"Rev": "030d584ade5f79aa2ed0ce067e8f7da50c9a10d5"
+		},
+		{
+			"ImportPath": "google.golang.org/cloud/compute/metadata",
+			"Rev": "b467501b2a6e4998b369e3569864906a1261972c"
+		},
+		{
+			"ImportPath": "google.golang.org/cloud/internal",
+			"Rev": "b467501b2a6e4998b369e3569864906a1261972c"
+		}
+	]
+}
